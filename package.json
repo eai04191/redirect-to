@@ -1,0 +1,17 @@
+{
+  "name": "vercel-redirect-to",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/eai04191/redirect-to.git",
+  "author": "Irie Aoi <eai@mizle.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/valid-url": "^1.0.3",
+    "@vercel/node": "^1.11.1",
+    "vercel": "^23.0.1"
+  },
+  "dependencies": {
+    "got": "^11.8.2",
+    "valid-url": "^1.0.9"
+  }
+}
