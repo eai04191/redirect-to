@@ -20,5 +20,5 @@ export default async (request: VercelRequest, response: VercelResponse) => {
     return;
   }
 
-  response.redirect(fetchedResponse);
+  response.redirect(302, fetchedResponse);
 };
